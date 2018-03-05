@@ -1,0 +1,215 @@
+.row,
+body,
+.search {
+  background-color: #212121 !important;
+  color: #ddd;
+  border-color: #212121;
+  border-radius: 0 !important;
+}
+
+#react-app-bible {
+  background-color: #212121;
+}
+
+.search svg {
+  background-color: #212121 !important;
+}
+
+.centered {
+  border: 2px solid #212121 !important;
+  border-radius: 2px !important;
+}
+
+.yv-button {
+  background-color: #424242 !important;
+  border-color: #ddd !important;
+  color: #ddd !important;
+}
+
+.yv-icon-button-svg > svg > path,
+.yv-icon-button-label > span {
+  fill: #ddd;
+  color: #ddd;
+}
+
+.reader-header,
+input,
+textarea,
+.yv-sticky-header-content {
+  background-color: #424242 !important;
+  color: #ddd !important;
+  border: none !important;
+}
+
+.circle-buttons {
+  background-color: #424242 !important;
+  border: none !important;
+}
+
+.picker-label {
+  border-color: #646464 !important;
+}
+
+.dropdown-arrow > polygon {
+  fill: #ddd !important;
+}
+
+.open.dropdown-arrow-container {
+  border-radius: 5px 5px 0 0 !important;
+}
+
+.header {
+  background-color: #212121 !important;
+  border: 2px solid #424242 !important;
+}
+
+.chapter-picker-modal {
+  background-color: #212121 !important;
+  border: 2px solid #424242 !important;
+}
+
+.chapter-picker-modal .chapter-container {
+  border-color: #424242 !important;
+}
+
+.chapter-picker-modal .chapter-container .chapter-list li {
+  background: none !important;
+  border: 2px solid #424242 !important;
+}
+
+.chapter-picker-modal .chapter-container .chapter-list li.active {
+  background-color: #424242 !important;
+}
+
+.audio-popup .audio-popup-modal .body,
+.reader-settings .reader-settings-modal .body {
+  background-color: #212121 !important;
+}
+
+.audio-player h3 {
+  color: #ddd !important;
+}
+
+.book-list .focus,
+.book-list li:hover,
+.chapter-list .focus,
+.chapter-list li:hover {
+  background-color: #424242 !important;
+}
+
+.open {
+  background-color: #212121 !important;
+  border: none !important;
+}
+
+.version-picker-modal {
+  border: 2px solid #424242 !important;
+}
+
+.version-picker-modal .header {
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+.version-picker-modal .version-container {
+  border: none !important;
+}
+.version-picker-modal .language-list,
+.version-picker-modal .version-list {
+  background-color: #212121 !important;
+}
+
+.version-picker-modal .language-list li,
+.version-picker-modal .version-list li {
+  color: #ddd !important;
+}
+
+.version-picker-modal .language-list .focus,
+.version-picker-modal .language-list li:hover,
+.version-picker-modal .version-list .focus,
+.version-picker-modal .version-list li:hover {
+  background-color: #424242 !important;
+}
+
+.version-picker-modal .language-list .language-header,
+.version-picker-modal .language-list .version-header,
+.version-picker-modal .version-list .language-header,
+.version-picker-modal .version-list .version-header {
+  color: #ddd !important;
+}
+
+.version-picker-modal .language-list ul,
+.version-picker-modal .version-list ul {
+  background-color: #212121 !important;
+}
+
+.change-language {
+  background-color: #212121 !important;
+  border-bottom: 2px solid #424242 !important;
+}
+
+.yv-button-bar-button {
+  background-color: #424242 !important;
+}
+
+ul.button-group.primary-toggle li.inactive a.solid-button.green {
+  background-color: #212121 !important;
+}
+
+div.carousel-title .title-container {
+  color: #ddd;
+}
+
+#react-app-PlanDiscovery > div {
+  background-color: #212121;
+}
+
+.slide-title,
+.title {
+  color: #ddd !important;
+}
+
+.collection-title {
+  color: #ddd !important;
+}
+
+.moment {
+  border-radius: 5px !important;
+}
+
+.moment-top,
+.moment-content,
+.moment-actions {
+  background: #424242 !important;
+  color: #ddd !important;
+}
+
+.moment-bottom {
+  background-color: #212121 !important;
+}
+
+.moment-comments-self-box {
+  background-color: #424242 !important;
+}
+
+.hollow-button.gray,
+button.hollow-button.gray,
+input[type='submit'].hollow-button.gray {
+  background-color: transparent !important;
+}
+
+.moment-comments-self-input textarea {
+  background-color: transparent !important;
+  color: #ddd !important;
+}
+
+.yv-inbox-wrapper.yv-notifications-inbox {
+  background-color: #212121 !important;
+  border: 2px solid #646464 !important;
+  border-radius: 5px;
+}
+
+.yv-notification {
+  background-color: #212121 !important;
+  border-bottom: 1px solid #ddd !important;
+}
