@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Dark Mode Bible",
-  "short name": "Dark Bible",
+  "short_name": "Dark Bible",
   "description": "Make Bible.com dark for easier reading at night",
-  "version": "1.0",
+  "version": "1.0.1",
   "author": "Josiah Nunemaker",
   "content_scripts": [
     {
