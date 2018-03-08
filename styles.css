@@ -3,7 +3,7 @@ body,
 html,
 .search {
   background-color: #212121 !important;
-  color: #ddd;
+  color: #ddd !important;
   border-color: #212121;
   border-radius: 0 !important;
 }
@@ -13,12 +13,16 @@ html,
 }
 
 .search svg {
-  background-color: #212121 !important;
+  background-color: #646464 !important;
 }
 
 .centered {
-  border: 2px solid #212121 !important;
+  border: 2px solid #646464 !important;
   border-radius: 2px !important;
+}
+
+.searchicon-container > g {
+  fill: #424242 !important;
 }
 
 .yv-button {
@@ -28,7 +32,9 @@ html,
 }
 
 .yv-icon-button-svg > svg > path,
-.yv-icon-button-label > span {
+.yv-icon-button-label > span,
+.yv-icon-button-svg g[fill='#a2a2a2'],
+.yv-icon-button-svg g path[fill='#a2a2a2'] {
   fill: #ddd;
   color: #ddd;
 }
@@ -99,7 +105,7 @@ textarea,
 }
 
 .open {
-  background-color: #212121 !important;
+  background-color: #646464 !important;
   border: none !important;
 }
 
@@ -213,4 +219,69 @@ input[type='submit'].hollow-button.gray {
 .yv-notification {
   background-color: #212121 !important;
   border-bottom: 1px solid #ddd !important;
+}
+
+.subscription-actions span,
+.plan-saved-title, .plan-completed-title {
+  color: #ddd !important;
+}
+
+.flex-wrap.horizontal-center.option span {
+  color: 424242;
+}
+
+.plan-title {
+  color: #ddd !important;
+}
+
+.plan-overview .header {
+  border: 0 !important;
+}
+
+ul.plan-pieces li,
+.plan-pieces li span,
+.plan-pieces li a {
+  color: #ddd !important;
+}
+
+.plan-day-slider button.slick-next.slick-arrow, .plan-day-slider button.slick-prev.slick-arrow {
+  border-left: 8px solid #646464 !important;
+}
+
+.plan-day-slider .day {
+  background-color: #424242 !important;
+  border: none !important;
+}
+
+.plan-day-slider .slick-list {
+  border: 2px solid #646464 !important;
+  border-radius: 5px !important;
+}
+
+.plan-day-slider .day h1, .plan-day-slider .day h4 {
+  color: #ddd !important;
+}
+
+.day-bottom h4 div {
+  background-color: #ddd !important;
+  border-color: #ddd !important;
+}
+
+.devo-content {
+  color: #ddd;
+}
+
+.plan-nav-header {
+  background-color: #424242 !important;
+  border: 0 !important;
+}
+
+.nav-content .plan-info .nav-title {
+  color: #ddd !important;
+}
+
+button.chapter-button {
+  background-color: #424242 !important;
+  border: 2px solid #646464 !important;
+  color: #ddd !important;
 }
