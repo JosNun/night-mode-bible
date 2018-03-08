@@ -3,7 +3,7 @@
   "name": "Dark Mode Bible",
   "short_name": "Dark Bible",
   "description": "Make Bible.com dark for easier reading at night",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Josiah Nunemaker",
   "content_scripts": [
     {
