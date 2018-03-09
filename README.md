@@ -14,6 +14,7 @@ A simple chrome extension to make [bible.com](https://bible.com) dark for easier
 
 * Clone the repo
 * Add to Chrome by going to `chrome://extensions`
+* If need be, check the `Developer Mode` box
 * Hit the `Load Unpacked Extension` button
 * Select the `extension` folder in the cloned repo
 * Make some awesome changes to the source

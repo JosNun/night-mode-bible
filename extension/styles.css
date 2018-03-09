@@ -222,7 +222,8 @@ input[type='submit'].hollow-button.gray {
 }
 
 .subscription-actions span,
-.plan-saved-title, .plan-completed-title {
+.plan-saved-title,
+.plan-completed-title {
   color: #ddd !important;
 }
 
@@ -244,7 +245,8 @@ ul.plan-pieces li,
   color: #ddd !important;
 }
 
-.plan-day-slider button.slick-next.slick-arrow, .plan-day-slider button.slick-prev.slick-arrow {
+.plan-day-slider button.slick-next.slick-arrow,
+.plan-day-slider button.slick-prev.slick-arrow {
   border-left: 8px solid #646464 !important;
 }
 
@@ -258,7 +260,8 @@ ul.plan-pieces li,
   border-radius: 5px !important;
 }
 
-.plan-day-slider .day h1, .plan-day-slider .day h4 {
+.plan-day-slider .day h1,
+.plan-day-slider .day h4 {
   color: #ddd !important;
 }
 
@@ -284,4 +287,8 @@ button.chapter-button {
   background-color: #424242 !important;
   border: 2px solid #646464 !important;
   color: #ddd !important;
+}
+
+.plan-reader-content > div.centered {
+  border: 0 !important;
 }
