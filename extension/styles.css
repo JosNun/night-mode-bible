@@ -292,3 +292,35 @@ button.chapter-button {
 .plan-reader-content > div.centered {
   border: 0 !important;
 }
+
+/*
+
+Bookmarks page
+
+*/
+
+div.yv-fullscreen-modal-content,
+div.verse-action-create {
+  background-color: #212121;
+}
+
+div.card {
+  background-color: #424242;
+  border: 2px solid #646464;
+}
+
+span.verse,
+.verse h2.heading {
+  color: #ddd;
+}
+
+div.labels-modal {
+  background-color: #212121;
+  border: 2px solid #646464;
+  border-radius: 5px;
+}
+
+svg.slick-arrow-right > path,
+svg.slick-arrow-left > path {
+  fill: #ddd;
+}
