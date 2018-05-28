@@ -324,3 +324,28 @@ svg.slick-arrow-right > path,
 svg.slick-arrow-left > path {
   fill: #ddd;
 }
+
+/*
+
+Verse Page (Search results)
+
+*/
+
+div.gray-background {
+  background-color: #212121;
+}
+
+h1.css-1jofwea {
+  color: #ddd;
+}
+
+h3.css-xu7krs,
+h3.css-xu7krs span,
+h3.css-xu7krs a[target='_self'] {
+  color: #ddd;
+}
+
+.trigger > svg > path,
+.yv-footer-child > a > svg > g {
+  fill: #ddd;
+}
