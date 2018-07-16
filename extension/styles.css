@@ -104,6 +104,10 @@ textarea,
   background-color: #424242 !important;
 }
 
+div.verse-action-footer {
+  background-color: #616161;
+}
+
 .open {
   background-color: #646464 !important;
   border: none !important;
