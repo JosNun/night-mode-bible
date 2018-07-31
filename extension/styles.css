@@ -5,15 +5,46 @@ html,
   background-color: #212121 !important;
   color: #ddd !important;
   border-color: #212121;
-  border-radius: 0 !important;
+  border-radius: 5px !important;
 }
 
 #react-app-bible {
   background-color: #212121;
 }
 
+a, a.header, a.fp-link {
+  color: #6ab750;
+}
+
+/*****
+
+Welcome Page
+
+*****/
+
+h1.heading a.heading {
+  color: #ddd;
+}
+
+div.columns h2.heading {
+  color: #ddd;
+}
+
+div.columns p.body-text {
+  color: #ddd;
+}
+
+
+/*****
+Search
+*****/
+
 .search svg {
-  background-color: #646464 !important;
+  background-color: #212121 !important;
+}
+
+.search .search-input {
+  margin: 2px !important;
 }
 
 .centered {
@@ -22,7 +53,11 @@ html,
 }
 
 .searchicon-container > g {
-  fill: #424242 !important;
+  fill: #212121 !important;
+}
+
+path#search-black {
+  fill: #ddd;
 }
 
 .yv-button {
@@ -104,11 +139,25 @@ textarea,
   background-color: #424242 !important;
 }
 
+
+/*****
+
+Verse action footer
+
+*****/
 div.verse-action-footer {
   background-color: #616161;
 }
 
-.open {
+a.close-button.yv-gray-link {
+  color: #ddd;
+}
+
+a.close-button.yv-gray-link:hover {
+  color: #6ab750;
+}
+
+.verse-action-footer.open {
   background-color: #646464 !important;
   border: none !important;
 }
@@ -235,7 +284,13 @@ input[type='submit'].hollow-button.gray {
   color: 424242;
 }
 
-.plan-title {
+/*****
+
+  Plans
+
+*****/
+
+.plan-title, .featured-plans-row .fp-title a {
   color: #ddd !important;
 }
 
