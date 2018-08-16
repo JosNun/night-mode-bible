@@ -1,14 +1,17 @@
-const enableCheckbox = document.getElementById('disable-checkbox');
+const body = document.getElementsByTagName('body')[0];
 
 chrome.storage.sync.get(
   ['nightModeEnabled'],
   ({ nightModeEnabled: isEnabled }) => {
     console.log(`nightModeEnabled: ${isEnabled}`);
-    enableCheckbox.checked = !isEnabled;
+    if (isEnabled) {
+      body.classList.remove('dark');
+    }
   }
 );
 
-enableCheckbox.addEventListener('change', () => {
+body.addEventListener('click', () => {
+  body.classList.toggle('dark');
   let currentlyEnabled;
   chrome.storage.sync.get(['nightModeEnabled'], storage => {
     currentlyEnabled = storage.nightModeEnabled;

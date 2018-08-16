@@ -1,0 +1,153 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 300px;
+  height: 300px;
+  
+  margin: 0;
+  
+  background-color: #5577ff;
+  border: 3px solid #fff;
+  border-width: 0 2px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "ArialMT", "Helvetica Neue", "Arial", "Liberation Sans", "FreeSans", sans-serif;
+  user-select: none;
+  transition-duration: 0.3s;
+}
+
+body.dark {
+  background-color: #212121;
+}
+
+body > h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  
+  text-align: center;
+  transform: translate(-50%, -150px);
+  z-index: 1;
+}
+
+.sun {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  
+  background-color: #ffde3a;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.1, 1);
+}
+
+.sun div {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  
+  width: 10px;
+  height: 40px;
+  
+  background-color: #ffde3a;
+  border-radius: 5px;
+  transform: translate(-50%);
+  transform-origin: center 100px;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.1, 1);
+}
+
+.sun div:nth-child(1) {
+  transform: translate(-50%) scaleY(1);
+}
+
+.sun div:nth-child(2) {
+  transform: translate(-50%) rotate(30deg) scaleY(1);
+}
+
+.sun div:nth-child(3) {
+  transform: translate(-50%) rotate(60deg);
+}
+
+.sun div:nth-child(4) {
+  transform: translate(-50%)  rotate(90deg);
+}
+
+.sun div:nth-child(5) {
+  transform: translate(-50%) rotate(120deg);
+}
+
+.sun div:nth-child(6) {
+  transform: translate(-50%) rotate(150deg);
+}
+
+.sun div:nth-child(7) {
+  transform: translate(-50%) rotate(180deg);
+}
+
+.sun div:nth-child(8) {
+  transform: translate(-50%) rotate(210deg);
+}
+
+.sun div:nth-child(9) {
+  transform: translate(-50%) rotate(240deg);
+}
+
+.sun div:nth-child(10) {
+  transform: translate(-50%)  rotate(270deg);
+}
+
+.sun div:nth-child(11) {
+  transform: translate(-50%) rotate(300deg);
+}
+
+.sun div:nth-child(12) {
+  transform: translate(-50%) rotate(330deg);
+}
+
+body.dark .sun {
+  background-color: #ddd;
+  transform: translate(-50%, -50%) rotate(90deg) scale(1.5);
+}
+
+body .sun:before, body .sun:after {
+  position: absolute;
+  content: '';
+  
+  border-radius: 50%;
+  background-color: #ccc;
+  transform: scale(0);
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+body.dark .sun:before, body.dark .sun:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+body .sun:after {
+  width: 20px;
+  height: 15px;
+  top: 10%;
+  left: 35%;
+}
+
+body .sun:before {
+  width: 35px;
+  height: 40px;
+  top: 30%;
+  left: 12%;
+}
+
+body.dark .sun div {
+  height: 0;
+  opacity: 0;
+}
