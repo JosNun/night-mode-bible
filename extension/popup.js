@@ -4,7 +4,7 @@ chrome.storage.sync.get(
   ['nightModeEnabled'],
   ({ nightModeEnabled: isEnabled }) => {
     console.log(`nightModeEnabled: ${isEnabled}`);
-    if (isEnabled) {
+    if (!isEnabled) {
       body.classList.remove('dark');
     }
   }
