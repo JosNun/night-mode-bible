@@ -3,18 +3,12 @@
   "name": "Night Mode Bible",
   "short_name": "Night Bible",
   "description": "Make Bible.com dark for easier reading at night",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "author": "Josiah Nunemaker",
-  "permissions": [
-    "activeTab",
-    "tabs",
-    "storage",
-    "webNavigation",
-    "declarativeContent",
-    "*://*.bible.com/*"
-  ],
-  "page_action": {
-    "default_popup": "popup.html"
+  "background": {
+    "scripts": [
+      "main.js"
+    ]
   },
   "content_scripts": [
     {
@@ -27,17 +21,23 @@
       "run_at": "document_start"
     }
   ],
-  "background": {
-    "scripts": [
-      "main.js"
-    ]
-  },
   "icons": {
     "16": "assets/icons/icon16.png",
     "32": "assets/icons/icon32.png",
     "48": "assets/icons/icon48.png",
     "128": "assets/icons/icon128.png"
   },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "webNavigation",
+    "declarativeContent",
+    "*://*.bible.com/*"
+  ],
   "web_accessible_resources": [
     "styles.css"
   ]
