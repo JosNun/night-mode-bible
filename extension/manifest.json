@@ -7,7 +7,7 @@
   "author": "Josiah Nunemaker",
   "background": {
     "scripts": [
-      "main.js"
+      "background.js"
     ]
   },
   "content_scripts": [
