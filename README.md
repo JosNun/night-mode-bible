@@ -4,11 +4,15 @@ A simple chrome extension to make [bible.com](https://bible.com) dark for easier
 
 ![Screenshot of night mode](assets/screenshots/main.png)
 
+## Installation
+
+Get it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/night-mode-bible/ebiieffikaglhelcnogmmijmlejdhngk).
+
 ## Todo - Contributions welcome!
 
 * [ ] New icon
-* [ ] Option to toggle the extension on/off
 * [ ] Ability to enable/disable based on time
+* [x] Option to toggle the extension on/off
 
 # Developing
 
