@@ -12,8 +12,36 @@ html,
   background-color: #212121;
 }
 
-a, a.header, a.fp-link {
+a,
+a.header,
+a.fp-link {
   color: #6ab750;
+}
+
+/*****
+
+Bootstrap overrides
+
+*****/
+
+.bg-white {
+  background-color: #212121;
+}
+
+.bg-light-gray {
+  background-color: #424242;
+}
+
+.black-30 {
+  color: #888888;
+}
+
+.black-80 {
+  color: #ddd;
+}
+
+.mid-gray {
+  color: #ddd;
 }
 
 /*****
@@ -34,7 +62,6 @@ div.columns p.body-text {
   color: #ddd;
 }
 
-
 /*****
 Search
 *****/
@@ -48,7 +75,7 @@ Search
 }
 
 .centered {
-  border: none !important; 
+  border: none !important;
   /* border-radius: 2px !important; */
 }
 
@@ -57,11 +84,17 @@ div.search.vertical-center {
 }
 
 .searchicon-container > g {
-  fill: #212121 !important;
+  fill: #ddd !important;
 }
 
 path#search-black {
   fill: #ddd;
+}
+
+/* Sign in buttons */
+.i-amphtml-toolbar > ul > li > a {
+  background-color: #424242;
+  color: #fff;
 }
 
 .yv-button {
@@ -142,7 +175,6 @@ textarea,
 .chapter-list li:hover {
   background-color: #424242 !important;
 }
-
 
 /*****
 
@@ -294,7 +326,8 @@ input[type='submit'].hollow-button.gray {
 
 *****/
 
-.plan-title, .featured-plans-row .fp-title a {
+.plan-title,
+.featured-plans-row .fp-title a {
   color: #ddd !important;
 }
 
