@@ -26,9 +26,7 @@
   },
   "permissions": [
     "activeTab",
-    "tabs",
     "storage",
-    "webNavigation",
     "declarativeContent",
     "*://*.bible.com/*"
   ],

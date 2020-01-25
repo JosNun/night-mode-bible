@@ -1,5 +1,4 @@
 function loadCSS(file) {
-  console.log('loading CSS...');
   if (document.getElementById(file)) {
     // the css has already been added
     return;
@@ -17,7 +16,6 @@ function loadCSS(file) {
 }
 
 function unloadCSS(file) {
-  console.log('unloading CSS...');
   const cssNode = document.getElementById(file);
   if (cssNode) {
     // this could be called when the thing's already unloaded
