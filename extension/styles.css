@@ -18,6 +18,10 @@ a.fp-link {
   color: #6ab750;
 }
 
+::selection {
+  background: #6ab750;
+}
+
 /*****
 
 Bootstrap overrides
@@ -34,6 +38,10 @@ Bootstrap overrides
 
 .black-30 {
   color: #888888;
+}
+
+.black-50 {
+  color: #999;
 }
 
 .black-80 {
@@ -70,6 +78,10 @@ Search
   background-color: #212121 !important;
 }
 
+.searchicon-container + * > input {
+  background: transparent !important;
+}
+
 .search .search-input {
   margin: 2px !important;
 }
@@ -92,10 +104,6 @@ path#search-black {
 }
 
 /* Sign in buttons */
-.i-amphtml-toolbar > ul > li > a {
-  background-color: #424242;
-  color: #fff;
-}
 
 .yv-button {
   background-color: #424242 !important;
@@ -118,6 +126,10 @@ textarea,
   background-color: #424242 !important;
   color: #ddd !important;
   border: none !important;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .circle-buttons {
