@@ -20,6 +20,11 @@ a.fp-link {
 
 ::selection {
   background: #6ab750;
+  color: #212121;
+}
+
+.yv-bible-text .wj .content::selection {
+  color: #cc0000;
 }
 
 /*****
