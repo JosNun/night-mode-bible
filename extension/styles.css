@@ -193,6 +193,11 @@ input {
   background-color: #424242 !important;
 }
 
+.reader h1,
+.reader .heading {
+  color: #ddd;
+}
+
 /*****
 
 Verse action footer
