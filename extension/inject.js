@@ -3,12 +3,12 @@ function loadCSS(file) {
     // the css has already been added
     return;
   }
-  const link = document.createElement('link');
-  link.href = chrome.extension.getURL(`${file}`);
+  const link = document.createElement("link");
+  link.href = chrome.runtime.getURL(`${file}`);
   link.id = file;
-  link.type = 'text/css';
-  link.rel = 'stylesheet';
-  const head = document.getElementsByTagName('head')[0];
+  link.type = "text/css";
+  link.rel = "stylesheet";
+  const head = document.getElementsByTagName("head")[0];
   if (head) {
     // in case this runs before head exists. hmmm.
     head.appendChild(link);
@@ -26,14 +26,14 @@ function unloadCSS(file) {
 chrome.runtime.onMessage.addListener((message, sender, res) => {
   const messageObj = JSON.parse(message);
   if (messageObj.enable) {
-    loadCSS('styles.css');
+    loadCSS("styles.css");
   } else {
-    unloadCSS('styles.css');
+    unloadCSS("styles.css");
   }
 });
 
-chrome.storage.sync.get(['nightModeEnabled'], ({ nightModeEnabled }) => {
+chrome.storage.sync.get(["nightModeEnabled"], ({ nightModeEnabled }) => {
   if (nightModeEnabled) {
-    loadCSS('styles.css');
+    loadCSS("styles.css");
   }
 });

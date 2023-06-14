@@ -118,8 +118,8 @@ path#search-black {
 
 .yv-icon-button-svg > svg > path,
 .yv-icon-button-label > span,
-.yv-icon-button-svg g[fill='#a2a2a2'],
-.yv-icon-button-svg g path[fill='#a2a2a2'] {
+.yv-icon-button-svg g[fill="#a2a2a2"],
+.yv-icon-button-svg g path[fill="#a2a2a2"] {
   fill: #ddd;
   color: #ddd;
 }
@@ -312,7 +312,7 @@ div.carousel-title .title-container {
 
 .hollow-button.gray,
 button.hollow-button.gray,
-input[type='submit'].hollow-button.gray {
+input[type="submit"].hollow-button.gray {
   background-color: transparent !important;
 }
 
@@ -459,7 +459,7 @@ h1.css-1jofwea {
 
 h3.css-xu7krs,
 h3.css-xu7krs span,
-h3.css-xu7krs a[target='_self'] {
+h3.css-xu7krs a[target="_self"] {
   color: #ddd;
 }
 
