@@ -59,6 +59,30 @@ Bootstrap overrides
 
 /*****
 
+TW Overrides
+
+*****/
+
+.bg-gray-10 {
+  background: rgb(100 100 100 / var(--tw-bg-opacity));
+}
+
+/*****
+
+Misc
+
+*****/
+
+header .text-gray-50 {
+  color: #ddd;
+}
+
+.top-header-mobile .text-gray-50 {
+  color: #ddd;
+}
+
+/*****
+
 Welcome Page
 
 *****/
@@ -106,6 +130,14 @@ div.search.vertical-center {
 
 path#search-black {
   fill: #ddd;
+}
+
+[aria-label="Search"] {
+  background-color: transparent !important;
+}
+
+.yv-search-input input {
+  background: transparent !important;
 }
 
 /* Sign in buttons */
@@ -195,6 +227,14 @@ input {
 
 .reader h1,
 .reader .heading {
+  color: #ddd;
+}
+
+.ChapterContent_content__dkdqo {
+  color: #ddd;
+}
+
+.ChapterContent_heading__RjEme {
   color: #ddd;
 }
 
@@ -466,4 +506,18 @@ h3.css-xu7krs a[target="_self"] {
 .trigger > svg > path,
 .yv-footer-child > a > svg > g {
   fill: #ddd;
+}
+
+/* 
+
+Page footer
+
+*/
+
+.yv-footer {
+  filter: invert(0.95);
+}
+
+footer {
+  filter: invert(0.95);
 }
