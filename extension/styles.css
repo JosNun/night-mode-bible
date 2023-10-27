@@ -73,7 +73,7 @@ Misc
 
 *****/
 
-header .text-gray-50 {
+.text-gray-50 {
   color: #ddd;
 }
 
@@ -230,11 +230,15 @@ input {
   color: #ddd;
 }
 
-.ChapterContent_content__dkdqo {
+[class*="ChapterContent"] > h1 {
   color: #ddd;
 }
 
-.ChapterContent_heading__RjEme {
+[class*="ChapterContent_content"] {
+  color: #ddd;
+}
+
+[class*="ChapterContent_heading"] {
   color: #ddd;
 }
 
