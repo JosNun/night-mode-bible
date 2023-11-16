@@ -63,8 +63,17 @@ TW Overrides
 
 *****/
 
+.bg-gray-5 {
+  background-color: rgb(50 50 50 / var(--tw-bg-opacity));
+}
+
 .bg-gray-10 {
-  background: rgb(100 100 100 / var(--tw-bg-opacity));
+  background-color: rgb(100 100 100 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-blue-10:hover {
+  --tw-bg-opacity: 0.1;
+  background-color: rgb(231 242 253/var(--tw-bg-opacity));
 }
 
 /*****
@@ -80,6 +89,11 @@ Misc
 .top-header-mobile .text-gray-50 {
   color: #ddd;
 }
+
+.text-text-light {
+  color: #e2e8f0
+}
+
 
 /*****
 
