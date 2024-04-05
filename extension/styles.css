@@ -2,14 +2,14 @@
 body,
 html,
 .search {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
   color: #ddd !important;
-  border-color: #212121;
+  border-color: #030712;
   border-radius: 5px !important;
 }
 
 #react-app-bible {
-  background-color: #212121;
+  background-color: #030712;
 }
 
 a,
@@ -20,7 +20,7 @@ a.fp-link {
 
 ::selection {
   background: #6ab750;
-  color: #212121;
+  color: #030712;
 }
 
 .yv-bible-text .wj .content::selection {
@@ -34,27 +34,51 @@ Bootstrap overrides
 *****/
 
 .bg-white {
-  background-color: #212121;
+  background-color: #030712 !important;
 }
 
 .bg-light-gray {
-  background-color: #424242;
+  background-color: #424242 !important;
 }
 
 .black-30 {
-  color: #888888;
+  color: #888888 !important;
 }
 
 .black-50 {
-  color: #999;
+  color: #999 !important;
+}
+
+.text-black {
+  color: #fff !important;
+}
+
+.bg-canvas-light {
+  background-color: #030712 !important;
+}
+
+.bg-canvas-secondary-light {
+  background-color: #374151 !important;
+}
+
+.hover\:bg-gray-10:hover {
+  background-color: #111827 !important;
+}
+
+.text-text-light {
+  color: #e2e8f0 !important;
 }
 
 .black-80 {
-  color: #ddd;
+  color: #ddd !important;
 }
 
 .mid-gray {
-  color: #ddd;
+  color: #ddd !important;
+}
+
+.text-gray-50 {
+  color: #f9fafb !important;
 }
 
 /*****
@@ -64,16 +88,16 @@ TW Overrides
 *****/
 
 .bg-gray-5 {
-  background-color: rgb(50 50 50 / var(--tw-bg-opacity));
+  background-color: rgb(50 50 50 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-gray-10 {
-  background-color: rgb(100 100 100 / var(--tw-bg-opacity));
+  background-color: rgb(100 100 100 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-blue-10:hover {
   --tw-bg-opacity: 0.1;
-  background-color: rgb(231 242 253/var(--tw-bg-opacity));
+  background-color: rgb(231 242 253 / var(--tw-bg-opacity)) !important;
 }
 
 /*****
@@ -82,18 +106,13 @@ Misc
 
 *****/
 
-.text-gray-50 {
-  color: #ddd;
-}
-
 .top-header-mobile .text-gray-50 {
   color: #ddd;
 }
 
-.text-text-light {
-  color: #e2e8f0
+.cc-banner p {
+  color: #fff;
 }
-
 
 /*****
 
@@ -118,7 +137,7 @@ Search
 *****/
 
 .search svg {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
 }
 
 .searchicon-container + * > input {
@@ -201,12 +220,12 @@ input {
 }
 
 .header {
-  background-color: #212121 !important;
-  border: 2px solid #424242 !important;
+  background-color: #030712 !important;
+  border: 2px solid #030712 !important;
 }
 
 .chapter-picker-modal {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
   border: 2px solid #424242 !important;
 }
 
@@ -225,7 +244,7 @@ input {
 
 .audio-popup .audio-popup-modal .body,
 .reader-settings .reader-settings-modal .body {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
 }
 
 .audio-player h3 {
@@ -241,15 +260,15 @@ input {
 
 .reader h1,
 .reader .heading {
-  color: #ddd;
+  color: #ddd !important;
 }
 
 [class*="ChapterContent"] > h1 {
-  color: #ddd;
+  color: #ddd !important;
 }
 
 [class*="ChapterContent_content"] {
-  color: #ddd;
+  color: #ddd !important;
 }
 
 [class*="ChapterContent_heading"] {
@@ -292,7 +311,7 @@ a.close-button.yv-gray-link:hover {
 }
 .version-picker-modal .language-list,
 .version-picker-modal .version-list {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
 }
 
 .version-picker-modal .language-list li,
@@ -316,11 +335,11 @@ a.close-button.yv-gray-link:hover {
 
 .version-picker-modal .language-list ul,
 .version-picker-modal .version-list ul {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
 }
 
 .change-language {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
   border-bottom: 2px solid #424242 !important;
 }
 
@@ -329,7 +348,7 @@ a.close-button.yv-gray-link:hover {
 }
 
 ul.button-group.primary-toggle li.inactive a.solid-button.green {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
 }
 
 div.carousel-title .title-container {
@@ -337,7 +356,7 @@ div.carousel-title .title-container {
 }
 
 #react-app-PlanDiscovery > div {
-  background-color: #212121;
+  background-color: #030712;
 }
 
 .slide-title,
@@ -361,7 +380,7 @@ div.carousel-title .title-container {
 }
 
 .moment-bottom {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
 }
 
 .moment-comments-self-box {
@@ -380,13 +399,13 @@ input[type="submit"].hollow-button.gray {
 }
 
 .yv-inbox-wrapper.yv-notifications-inbox {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
   border: 2px solid #646464 !important;
   border-radius: 5px;
 }
 
 .yv-notification {
-  background-color: #212121 !important;
+  background-color: #030712 !important;
   border-bottom: 1px solid #ddd !important;
 }
 
@@ -477,7 +496,7 @@ Bookmarks page
 
 div.yv-fullscreen-modal-content,
 div.verse-action-create {
-  background-color: #212121;
+  background-color: #030712;
 }
 
 div.card {
@@ -491,7 +510,7 @@ span.verse,
 }
 
 div.labels-modal {
-  background-color: #212121;
+  background-color: #030712;
   border: 2px solid #646464;
   border-radius: 5px;
 }
@@ -508,7 +527,7 @@ Verse Page (Search results)
 */
 
 div.gray-background {
-  background-color: #212121;
+  background-color: #030712;
 }
 
 h1.css-1jofwea {
@@ -533,9 +552,5 @@ Page footer
 */
 
 .yv-footer {
-  filter: invert(0.95);
-}
-
-footer {
   filter: invert(0.95);
 }
