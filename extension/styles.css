@@ -545,6 +545,14 @@ h3.css-xu7krs a[target="_self"] {
   fill: #ddd;
 }
 
+.shadow-light-2 {
+  box-shadow: 0px 2px 6px rgb(120 120 120 / 85%);
+}
+/* div[aria-label="Cancel"] */
+.fixed > .flex > .flex svg {
+  color: #ddd;
+}
+
 /* 
 
 Page footer
