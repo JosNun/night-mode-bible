@@ -13,10 +13,20 @@ function loadCSS(file) {
     // in case this runs before head exists. hmmm.
     head.appendChild(link);
   }
-  const body = document.querySelector("body");
-  if (body) {
-    body.classList.add("night-mode");
+  if (!addBodyCls()) {
+    window.addEventListener("load", () => {
+      addBodyCls();
+    });
   }
+}
+
+function addBodyCls() {
+  const body = document.querySelector("body");
+  if (!body) {
+    return false;
+  }
+  body.classList.add("night-mode");
+  return true;
 }
 
 function unloadCSS(file) {

@@ -267,7 +267,9 @@ input {
   color: #ddd !important;
 }
 
-[class*="ChapterContent_content"] {
+/* contrast required for verses with user background color - exclude verses with background-color */
+[class^="ChapterContent_verse"]:not([style*="background-color"])
+  [class*="ChapterContent_content"] {
   color: #ddd !important;
 }
 
