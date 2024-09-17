@@ -13,6 +13,20 @@ function loadCSS(file) {
     // in case this runs before head exists. hmmm.
     head.appendChild(link);
   }
+  if (!addBodyCls()) {
+    window.addEventListener("load", () => {
+      addBodyCls();
+    });
+  }
+}
+
+function addBodyCls() {
+  const body = document.querySelector("body");
+  if (!body) {
+    return false;
+  }
+  body.classList.add("night-mode");
+  return true;
 }
 
 function unloadCSS(file) {
@@ -20,6 +34,8 @@ function unloadCSS(file) {
   if (cssNode) {
     // this could be called when the thing's already unloaded
     cssNode.parentNode.removeChild(cssNode);
+    const body = document.querySelector("body");
+    body.classList.remove("night-mode");
   }
 }
 

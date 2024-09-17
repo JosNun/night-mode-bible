@@ -267,7 +267,9 @@ input {
   color: #ddd !important;
 }
 
-[class*="ChapterContent_content"] {
+/* contrast required for verses with user background color - exclude verses with background-color */
+[class^="ChapterContent_verse"]:not([style*="background-color"])
+  [class*="ChapterContent_content"] {
   color: #ddd !important;
 }
 
@@ -543,6 +545,14 @@ h3.css-xu7krs a[target="_self"] {
 .trigger > svg > path,
 .yv-footer-child > a > svg > g {
   fill: #ddd;
+}
+
+.shadow-light-2 {
+  box-shadow: 0px 2px 6px rgb(120 120 120 / 85%);
+}
+/* div[aria-label="Cancel"] */
+.fixed > .flex > .flex svg {
+  color: #ddd;
 }
 
 /* 
