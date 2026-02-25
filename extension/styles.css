@@ -2,29 +2,29 @@
 body,
 html,
 .search {
-  background-color: #030712 !important;
-  color: #ddd !important;
-  border-color: #030712;
-  border-radius: 5px !important;
+    background-color: #030712 !important;
+    color: #ddd !important;
+    border-color: #030712;
+    border-radius: 5px !important;
 }
 
 #react-app-bible {
-  background-color: #030712;
+    background-color: #030712;
 }
 
 a,
 a.header,
 a.fp-link {
-  color: #6ab750;
+    color: #6ab750;
 }
 
 ::selection {
-  background: #6ab750;
-  color: #030712;
+    background: #6ab750;
+    color: #030712;
 }
 
 .yv-bible-text .wj .content::selection {
-  color: #cc0000;
+    color: #cc0000;
 }
 
 /*****
@@ -34,51 +34,51 @@ Bootstrap overrides
 *****/
 
 .bg-white {
-  background-color: #030712 !important;
+    background-color: #030712 !important;
 }
 
 .bg-light-gray {
-  background-color: #424242 !important;
+    background-color: #424242 !important;
 }
 
 .black-30 {
-  color: #888888 !important;
+    color: #888888 !important;
 }
 
 .black-50 {
-  color: #999 !important;
+    color: #999 !important;
 }
 
 .text-black {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .bg-canvas-light {
-  background-color: #030712 !important;
+    background-color: #030712 !important;
 }
 
 .bg-canvas-secondary-light {
-  background-color: #374151 !important;
+    background-color: #374151 !important;
 }
 
 .hover\:bg-gray-10:hover {
-  background-color: #111827 !important;
+    background-color: #111827 !important;
 }
 
 .text-text-light {
-  color: #e2e8f0 !important;
+    color: #e2e8f0 !important;
 }
 
 .black-80 {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .mid-gray {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .text-gray-50 {
-  color: #f9fafb !important;
+    color: #f9fafb !important;
 }
 
 /*****
@@ -88,16 +88,16 @@ TW Overrides
 *****/
 
 .bg-gray-5 {
-  background-color: rgb(50 50 50 / var(--tw-bg-opacity)) !important;
+    background-color: rgb(50 50 50 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-gray-10 {
-  background-color: rgb(100 100 100 / var(--tw-bg-opacity)) !important;
+    background-color: rgb(100 100 100 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-blue-10:hover {
-  --tw-bg-opacity: 0.1;
-  background-color: rgb(231 242 253 / var(--tw-bg-opacity)) !important;
+    --tw-bg-opacity: 0.1;
+    background-color: rgb(231 242 253 / var(--tw-bg-opacity)) !important;
 }
 
 /*****
@@ -107,11 +107,11 @@ Misc
 *****/
 
 .top-header-mobile .text-gray-50 {
-  color: #ddd;
+    color: #ddd;
 }
 
 .cc-banner p {
-  color: #fff;
+    color: #fff;
 }
 
 /*****
@@ -119,17 +119,20 @@ Misc
 Welcome Page
 
 *****/
-
 h1.heading a.heading {
-  color: #ddd;
+    color: #ddd;
 }
 
 div.columns h2.heading {
-  color: #ddd;
+    color: #ddd;
+}
+
+[class*="ChapterContent-module__"][class*="__reader"] {
+    color: #ddd;
 }
 
 div.columns p.body-text {
-  color: #ddd;
+    color: #ddd;
 }
 
 /*****
@@ -137,144 +140,144 @@ Search
 *****/
 
 .search svg {
-  background-color: #030712 !important;
+    background-color: #030712 !important;
 }
 
 .searchicon-container + * > input {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 .search .search-input {
-  margin: 2px !important;
+    margin: 2px !important;
 }
 
 .centered {
-  border: none !important;
-  /* border-radius: 2px !important; */
+    border: none !important;
+    /* border-radius: 2px !important; */
 }
 
 div.search.vertical-center {
-  border: none;
+    border: none;
 }
 
 .searchicon-container > g {
-  fill: #ddd !important;
+    fill: #ddd !important;
 }
 
 path#search-black {
-  fill: #ddd;
+    fill: #ddd;
 }
 
 [aria-label="Search"] {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .yv-search-input input {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 /* Sign in buttons */
 
 .yv-button {
-  background-color: #424242 !important;
-  border-color: #ddd !important;
-  color: #ddd !important;
+    background-color: #424242 !important;
+    border-color: #ddd !important;
+    color: #ddd !important;
 }
 
 .yv-icon-button-svg > svg > path,
 .yv-icon-button-label > span,
 .yv-icon-button-svg g[fill="#a2a2a2"],
 .yv-icon-button-svg g path[fill="#a2a2a2"] {
-  fill: #ddd;
-  color: #ddd;
+    fill: #ddd;
+    color: #ddd;
 }
 
 .reader-header,
 input,
 textarea,
 .yv-sticky-header-content {
-  background-color: #424242 !important;
-  color: #ddd !important;
-  border: none !important;
+    background-color: #424242 !important;
+    color: #ddd !important;
+    border: none !important;
 }
 
 input {
-  background-color: rgba(255, 255, 255, 0.2) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .circle-buttons {
-  background-color: #424242 !important;
-  border: none !important;
+    background-color: #424242 !important;
+    border: none !important;
 }
 
 .picker-label {
-  border-color: #646464 !important;
+    border-color: #646464 !important;
 }
 
 .dropdown-arrow > polygon {
-  fill: #ddd !important;
+    fill: #ddd !important;
 }
 
 .open.dropdown-arrow-container {
-  border-radius: 5px 5px 0 0 !important;
+    border-radius: 5px 5px 0 0 !important;
 }
 
 .header {
-  background-color: #030712 !important;
-  border: 2px solid #030712 !important;
+    background-color: #030712 !important;
+    border: 2px solid #030712 !important;
 }
 
 .chapter-picker-modal {
-  background-color: #030712 !important;
-  border: 2px solid #424242 !important;
+    background-color: #030712 !important;
+    border: 2px solid #424242 !important;
 }
 
 .chapter-picker-modal .chapter-container {
-  border-color: #424242 !important;
+    border-color: #424242 !important;
 }
 
 .chapter-picker-modal .chapter-container .chapter-list li {
-  background: none !important;
-  border: 2px solid #424242 !important;
+    background: none !important;
+    border: 2px solid #424242 !important;
 }
 
 .chapter-picker-modal .chapter-container .chapter-list li.active {
-  background-color: #424242 !important;
+    background-color: #424242 !important;
 }
 
 .audio-popup .audio-popup-modal .body,
 .reader-settings .reader-settings-modal .body {
-  background-color: #030712 !important;
+    background-color: #030712 !important;
 }
 
 .audio-player h3 {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .book-list .focus,
 .book-list li:hover,
 .chapter-list .focus,
 .chapter-list li:hover {
-  background-color: #424242 !important;
+    background-color: #424242 !important;
 }
 
 .reader h1,
 .reader .heading {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 [class*="ChapterContent"] > h1 {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 /* contrast required for verses with user background color - exclude verses with background-color */
 [class^="ChapterContent_verse"]:not([style*="background-color"])
-  [class*="ChapterContent_content"] {
-  color: #ddd !important;
+    [class*="ChapterContent_content"] {
+    color: #ddd !important;
 }
 
 [class*="ChapterContent_heading"] {
-  color: #ddd;
+    color: #ddd;
 }
 
 /*****
@@ -283,142 +286,142 @@ Verse action footer
 
 *****/
 div.verse-action-footer {
-  background-color: #616161;
+    background-color: #616161;
 }
 
 a.close-button.yv-gray-link {
-  color: #ddd;
+    color: #ddd;
 }
 
 a.close-button.yv-gray-link:hover {
-  color: #6ab750;
+    color: #6ab750;
 }
 
 .verse-action-footer.open {
-  background-color: #646464 !important;
-  border: none !important;
+    background-color: #646464 !important;
+    border: none !important;
 }
 
 .version-picker-modal {
-  border: 2px solid #424242 !important;
+    border: 2px solid #424242 !important;
 }
 
 .version-picker-modal .header {
-  border-left: 0 !important;
-  border-right: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
 }
 
 .version-picker-modal .version-container {
-  border: none !important;
+    border: none !important;
 }
 .version-picker-modal .language-list,
 .version-picker-modal .version-list {
-  background-color: #030712 !important;
+    background-color: #030712 !important;
 }
 
 .version-picker-modal .language-list li,
 .version-picker-modal .version-list li {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .version-picker-modal .language-list .focus,
 .version-picker-modal .language-list li:hover,
 .version-picker-modal .version-list .focus,
 .version-picker-modal .version-list li:hover {
-  background-color: #424242 !important;
+    background-color: #424242 !important;
 }
 
 .version-picker-modal .language-list .language-header,
 .version-picker-modal .language-list .version-header,
 .version-picker-modal .version-list .language-header,
 .version-picker-modal .version-list .version-header {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .version-picker-modal .language-list ul,
 .version-picker-modal .version-list ul {
-  background-color: #030712 !important;
+    background-color: #030712 !important;
 }
 
 .change-language {
-  background-color: #030712 !important;
-  border-bottom: 2px solid #424242 !important;
+    background-color: #030712 !important;
+    border-bottom: 2px solid #424242 !important;
 }
 
 .yv-button-bar-button {
-  background-color: #424242 !important;
+    background-color: #424242 !important;
 }
 
 ul.button-group.primary-toggle li.inactive a.solid-button.green {
-  background-color: #030712 !important;
+    background-color: #030712 !important;
 }
 
 div.carousel-title .title-container {
-  color: #ddd;
+    color: #ddd;
 }
 
 #react-app-PlanDiscovery > div {
-  background-color: #030712;
+    background-color: #030712;
 }
 
 .slide-title,
 .title {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .collection-title {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .moment {
-  border-radius: 5px !important;
+    border-radius: 5px !important;
 }
 
 .moment-top,
 .moment-content,
 .moment-actions {
-  background: #424242 !important;
-  color: #ddd !important;
+    background: #424242 !important;
+    color: #ddd !important;
 }
 
 .moment-bottom {
-  background-color: #030712 !important;
+    background-color: #030712 !important;
 }
 
 .moment-comments-self-box {
-  background-color: #424242 !important;
+    background-color: #424242 !important;
 }
 
 .hollow-button.gray,
 button.hollow-button.gray,
 input[type="submit"].hollow-button.gray {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .moment-comments-self-input textarea {
-  background-color: transparent !important;
-  color: #ddd !important;
+    background-color: transparent !important;
+    color: #ddd !important;
 }
 
 .yv-inbox-wrapper.yv-notifications-inbox {
-  background-color: #030712 !important;
-  border: 2px solid #646464 !important;
-  border-radius: 5px;
+    background-color: #030712 !important;
+    border: 2px solid #646464 !important;
+    border-radius: 5px;
 }
 
 .yv-notification {
-  background-color: #030712 !important;
-  border-bottom: 1px solid #ddd !important;
+    background-color: #030712 !important;
+    border-bottom: 1px solid #ddd !important;
 }
 
 .subscription-actions span,
 .plan-saved-title,
 .plan-completed-title {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .flex-wrap.horizontal-center.option span {
-  color: 424242;
+    color: 424242;
 }
 
 /*****
@@ -429,65 +432,65 @@ input[type="submit"].hollow-button.gray {
 
 .plan-title,
 .featured-plans-row .fp-title a {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .plan-overview .header {
-  border: 0 !important;
+    border: 0 !important;
 }
 
 ul.plan-pieces li,
 .plan-pieces li span,
 .plan-pieces li a {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .plan-day-slider button.slick-next.slick-arrow,
 .plan-day-slider button.slick-prev.slick-arrow {
-  border-left: 8px solid #646464 !important;
+    border-left: 8px solid #646464 !important;
 }
 
 .plan-day-slider .day {
-  background-color: #424242 !important;
-  border: none !important;
+    background-color: #424242 !important;
+    border: none !important;
 }
 
 .plan-day-slider .slick-list {
-  border: 2px solid #646464 !important;
-  border-radius: 5px !important;
+    border: 2px solid #646464 !important;
+    border-radius: 5px !important;
 }
 
 .plan-day-slider .day h1,
 .plan-day-slider .day h4 {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 .day-bottom h4 div {
-  background-color: #ddd !important;
-  border-color: #ddd !important;
+    background-color: #ddd !important;
+    border-color: #ddd !important;
 }
 
 .devo-content {
-  color: #ddd;
+    color: #ddd;
 }
 
 .plan-nav-header {
-  background-color: #424242 !important;
-  border: 0 !important;
+    background-color: #424242 !important;
+    border: 0 !important;
 }
 
 .nav-content .plan-info .nav-title {
-  color: #ddd !important;
+    color: #ddd !important;
 }
 
 button.chapter-button {
-  background-color: #424242 !important;
-  border: 2px solid #646464 !important;
-  color: #ddd !important;
+    background-color: #424242 !important;
+    border: 2px solid #646464 !important;
+    color: #ddd !important;
 }
 
 .plan-reader-content > div.centered {
-  border: 0 !important;
+    border: 0 !important;
 }
 
 /*
@@ -498,28 +501,28 @@ Bookmarks page
 
 div.yv-fullscreen-modal-content,
 div.verse-action-create {
-  background-color: #030712;
+    background-color: #030712;
 }
 
 div.card {
-  background-color: #424242;
-  border: 2px solid #646464;
+    background-color: #424242;
+    border: 2px solid #646464;
 }
 
 span.verse,
 .verse h2.heading {
-  color: #ddd;
+    color: #ddd;
 }
 
 div.labels-modal {
-  background-color: #030712;
-  border: 2px solid #646464;
-  border-radius: 5px;
+    background-color: #030712;
+    border: 2px solid #646464;
+    border-radius: 5px;
 }
 
 svg.slick-arrow-right > path,
 svg.slick-arrow-left > path {
-  fill: #ddd;
+    fill: #ddd;
 }
 
 /*
@@ -529,39 +532,39 @@ Verse Page (Search results)
 */
 
 div.gray-background {
-  background-color: #030712;
+    background-color: #030712;
 }
 
 h1.css-1jofwea {
-  color: #ddd;
+    color: #ddd;
 }
 
 h3.css-xu7krs,
 h3.css-xu7krs span,
 h3.css-xu7krs a[target="_self"] {
-  color: #ddd;
+    color: #ddd;
 }
 
 .trigger > svg > path,
 .yv-footer-child > a > svg > g {
-  fill: #ddd;
+    fill: #ddd;
 }
 
 .shadow-light-2 {
-  box-shadow: 0px 2px 6px rgb(120 120 120 / 85%);
+    box-shadow: 0px 2px 6px rgb(120 120 120 / 85%);
 }
 
 /* Close icon in the top right of the verse selection actions popup */
 .fixed > .flex > .flex svg {
-  color: #ddd;
+    color: #ddd;
 }
 
-/* 
+/*
 
 Page footer
 
 */
 
 .yv-footer {
-  filter: invert(0.95);
+    filter: invert(0.95);
 }
