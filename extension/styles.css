@@ -62,7 +62,7 @@ Bootstrap overrides
 }
 
 .hover\:bg-gray-10:hover {
-    background-color: #111827 !important;
+    background-color: #1f2937 !important;
 }
 
 .text-text-light {
@@ -88,16 +88,73 @@ TW Overrides
 *****/
 
 .bg-gray-5 {
-    background-color: rgb(50 50 50 / var(--tw-bg-opacity)) !important;
+    background-color: #1f2937 !important;
 }
 
 .bg-gray-10 {
-    background-color: rgb(100 100 100 / var(--tw-bg-opacity)) !important;
+    background-color: #374151 !important;
 }
 
 .hover\:bg-blue-10:hover {
     --tw-bg-opacity: 0.1;
     background-color: rgb(231 242 253 / var(--tw-bg-opacity)) !important;
+}
+
+/*****
+
+App shell (sidebar, top bar, mobile tab bar)
+
+*****/
+
+.bg-surface-primary-light {
+    background-color: #111827 !important;
+}
+
+.bg-surface-secondary-light {
+    background-color: #1f2937 !important;
+}
+
+/* translucent backdrop behind the sticky top bar and mobile tab bar */
+.bg-canvas-light\/\[0\.97\] {
+    background-color: rgb(3 7 18 / 0.97) !important;
+}
+
+.bg-transparent-black-05,
+.hover\:bg-transparent-black-05:hover {
+    background-color: rgb(255 255 255 / 0.05) !important;
+}
+
+.bg-transparent-black-10,
+.hover\:bg-transparent-black-10:hover,
+.active\:bg-transparent-black-10:active {
+    background-color: rgb(255 255 255 / 0.1) !important;
+}
+
+.border-transparent-black-10 {
+    border-color: rgb(255 255 255 / 0.1) !important;
+}
+
+.border-gray-15 {
+    border-color: #374151 !important;
+}
+
+.text-gray-25,
+.text-gray-30,
+.placeholder\:text-gray-25::placeholder {
+    color: #9ca3af !important;
+}
+
+.hover\:text-text-light:hover {
+    color: #f9fafb !important;
+}
+
+/* "Bible App" wordmark is a dark image */
+img[src*="bible-app-logo"] {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.cc-banner {
+    background-color: rgb(17 24 39 / 0.95) !important;
 }
 
 /*****
@@ -272,7 +329,9 @@ input {
 
 /* contrast required for verses with user background color - exclude verses with background-color */
 [class^="ChapterContent_verse"]:not([style*="background-color"])
-    [class*="ChapterContent_content"] {
+    [class*="ChapterContent_content"],
+[class^="ChapterContent-module__"][class*="__verse"]:not([style*="background-color"])
+    [class*="__content"] {
     color: #ddd !important;
 }
 
